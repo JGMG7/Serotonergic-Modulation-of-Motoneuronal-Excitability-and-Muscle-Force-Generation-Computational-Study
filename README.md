@@ -47,14 +47,12 @@ rel2.mod : kinetic model for the release of transmitter
 
 HOW TO RUN
 To compile the demo, NEURON and INTERVIEWS must be installed and working on the machine you are using. Just type "nrnivmodl" to compile the mechanisms given in the mod files.
+After, to use Python preferly 3.12 versión and Spyder environment to run the programs (mn_10hz_input.py, mn_40hz_input.py and mn_100hz_input.py).
 
+Before each execution reset the kernel to improve results 
 
 MODIFICATIONS
+If you required to know, visualize, record or add variables as ionic current or other biophysics parameter, you can modified the programs in the last sections. 
 
-"""""5-HT concentration:"""""
-
-To modify 5-HT concentration release, change in the "insert presynaptic mechanisms" sections of program.
-
-nt_rel2 = 10000 // 10000000 number of transmitter molecule per vesicle <---- 
 
 For more information about how to get NEURON in Python and how to install it, please refer to the following sites: https://www.neuron.yale.edu/neuron/
